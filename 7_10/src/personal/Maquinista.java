@@ -1,3 +1,4 @@
+package personal;
 /*7.10
 Hemos recibido en encargo de un cliente para definir los paquetes y las clases necesaria
 (solo implementar los atributos y los constructores) para gestionar una empresa ferroviaria,
@@ -21,13 +22,14 @@ que es responsable de el.
 
 import java.util.*;
 public class Maquinista {
-    public static void main(String[] args) throws Exception {
-       
-
-
-
-
-
-
+    String nombre;
+    String dni;
+    double sueldo;
+    String rango;
+    public Maquinista(String nombre, String dni, double sueldo, String rango) {
+        this.nombre = nombre;
+        this.dni = dni;
+        this.sueldo = sueldo;
+        this.rango = rango;
     }
-}
+}  
